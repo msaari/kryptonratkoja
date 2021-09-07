@@ -117,6 +117,7 @@ foreach ( $array as $row ) {
 			height: <?php echo $square_size ?>;
 			font-size: 16px;
 			font-weight: 700;
+			text-align: center;
 		}
 
 		input::placeholder {
