@@ -115,8 +115,15 @@ foreach ( $array as $row ) {
 		input {
 			width: <?php echo $square_size ?>;
 			height: <?php echo $square_size ?>;
+			font-size: 16px;
+			font-weight: 700;
 		}
 
+		input::placeholder {
+			color: #333;
+			font-weight: 500;
+			font-size: 12px;
+		}
 		span.empty {
 			width: <?php echo $square_size ?>;
 			height: <?php echo $square_size ?>;
